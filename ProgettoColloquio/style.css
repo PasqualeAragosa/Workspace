@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  background-image: url(file:///Users/pasqualearagosa/Desktop/Fundamentals%20Camp/ProgettoColloquio/img/background.jpg);
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover; /*centra il background al centro sia vert che orizz*/
+  height: 100vh;
+}
+
+.sfondo{
+  width: 60%;
+  height: 90%;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+img{
+  width: 180px;
+  height: auto;
+  margin: 20px auto;
+}
+
+header{
+  color: rgb(50, 255, 50);
+  text-align: center;
+}
+
+nav{
+  background-color: rgb(50, 255, 50);
+  text-align: center;
+  border: 10px;
+  padding: 5px;
+  margin: 0 25px;
+}
+
+section{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: left;
+  border: 10px;
+  padding: 5px;
+  margin: 25px 15px 5px 15px;
+}
+
+footer{
+  text-align: right;
+}
+
+p{
+  font-size: 13px;
+  text-align: left;
+  border: 5px;
+  padding: 5px;
+  margin: 0 15px;
+}
+
+#primo{
+  background-color: orange;
+  padding: 10px;
+  margin: 0 550px 0 15px;
+  border-radius: 5px;
+}
+
+#secondo{
+  background-color: green;
+  padding: 10px;
+  margin: 0 350px 0 15px;
+  border-radius: 5px;
+}
+
+#terzo{
+  background-color: red;
+  padding: 10px;
+  margin: 0 700px 0 15px;
+  border-radius: 5px;
+}
